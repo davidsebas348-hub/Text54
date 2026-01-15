@@ -38,5 +38,5 @@ local hrp = character:WaitForChild("HumanoidRootPart")
 
 for i, position in ipairs(stageCoordinates) do
     hrp.CFrame = CFrame.new(position)
-    task.wait(0.8) -- tiempo entre cada TP (puedes cambiarlo)
+    task.wait(0.1) -- tiempo entre cada TP (puedes cambiarlo)
 end
